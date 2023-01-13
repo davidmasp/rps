@@ -12,6 +12,18 @@ make all
 
 This command will install the required dependencies and launch the bot.
 
+### from scratch
+
+To launch in an Alpine instance you will need to install:
+
+```
+apk add git
+apk add py3-pip
+apk add make
+```
+
+Then download the code using git, udate the `.env` file and execute `make all`.
+
 ## :heavy_check_mark: Todo
 
 - See where to host (in pythonanywhere is not ok for free accounts)
