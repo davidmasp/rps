@@ -12,7 +12,7 @@ from discord.ext import commands
 from dotenv import dotenv_values
 config = dotenv_values(".env")
 
-db = Users("users.db")
+db = Users(config["dbfile"])
 
 ## BOT CONfig
 intents = discord.Intents.default()
