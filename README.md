@@ -28,3 +28,5 @@ Then download the code using git, udate the `.env` file and execute `make all`.
 
 - See where to host (in pythonanywhere is not ok for free accounts)
 - Make the logging server specific (?)
+
+See this -> [URL](https://discord.com/api/oauth2/authorize?client_id=1063902147323904142&permissions=3136&scope=bot)
